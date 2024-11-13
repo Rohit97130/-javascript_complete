@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <button id="btn1">say Hello</button>
+    <!-- <button id="btn-2">say Hiii</button> -->
+    <!-- <button class="btn-3">say Heyyy</button> -->
+
+    <script>
+      //Q1 on  clicking the Button  sppend hello to the Page
+      // The Document method querySelector() returns the first Element cwithin
+      //the document that mathches the specified selector
+      //or group of selector .  If no  mathches ae found, null is returned.
+
+      //identify  something in  DOM
+      //getelementbyID -- dont need to  put # then name already  specified the id
+
+      // getElementById
+      //    let btn1 = document.getElementById('btn-1');
+      //    console.log('Getting selected by  getElementBYId' , btn1);
+
+      //querySelector mostly  used in js
+      //    let btn2 = document.querySelector('#btn-2')
+      //    console.log('Getting selected by  queryselector',btn2);
+
+      // getElementbyClassName
+      //   let btn3 = document.getElementsByClassName('btn3')
+      //   console.log(btn3);
+
+      // now lets again jump into  our question
+      let btn = document.querySelector("#btn1");
+      
+      
+      //for double click -- dblclick , click - single click
+      btn.addEventListener("click", function () {
+        let divElem = document.createElement("div"); //  you  can  also use h1 like ta
+        divElem.innerText = "Hello";
+
+        let body = document.querySelector("body");
+        body.appendChild(divElem);
+      });
+       
+     </script>
+  </body>
+</html>

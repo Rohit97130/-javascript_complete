@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>1</li>     <!-- index 0  -->
+        <li>2</li>    <!-- 1 -->
+        <li>3</li>     <!--2  -->
+        <li>4</li>   <!-- 3 -->
+        <li>5</li>  <!-- 4 -->
+       
+        <li>6</li>  <!-- 5 -->
+
+        <li>8</li>   <!--6  -->
+        <li>9</li>    <!--  -->
+        <li>10</li>      <!--  -->
+        
+    </ul>
+
+    <script>
+        //fix the list by inserting the missing element using querySelectorALL and insertBefore
+         
+         let ourList =  document.querySelector('ul')
+         console.log(ourList);
+
+         let allItems = ourList.querySelectorAll('li');
+         console.log(allItems); // it is an  array  like structure  called NodeList
+        // Nodelist -> we can loop  in  nodelist but we can  not use high order method of array and properties and array method loke push
+
+
+        let indexthathas8 = allItems[6] 
+        console.log(indexthathas8);
+        
+        let elementSeven =  document.createElement('li')
+        elementSeven.innerText = '7'
+
+        ourList.insertBefore(elementSeven,indexthathas8 )
+
+         
+         
+         
+    </script>
+</body>
+</html>
