@@ -1,7 +1,7 @@
 
 // !different way  to  design  an  (object literal)
 const marriage ={
-    name: "Atule",
+    name: "Atul",
     age: 30,
     isWorking:false,
     address:{
