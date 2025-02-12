@@ -1,7 +1,6 @@
-console.log('rohit');
-console.log(5 + 5);
+let a = [];
+console.log(a);
+let b = [5];
+a.concat = "hello ji"
+console.log();
 
-var rohitrr = function(){};
-rohitrr.name = 'ff';
-console.log(rohitrr.name);
- 
