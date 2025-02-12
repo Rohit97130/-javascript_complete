@@ -3,7 +3,7 @@
 console.log(this);//empty and window
 
 function  test(){
-    console.log(this);  // it points toward the global object and(window object)
+    console.log(this);  // it points toward to the udefined
 }
 test(); //undfined
 
