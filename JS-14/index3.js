@@ -20,7 +20,8 @@ function SuperCar(features, price ,model , color){
         this.price = price;
      }
      
-SuperCar.prototype = Object.create (Car.prototype); //TODO : equivalent to  extends
+SuperCar.prototype = Object.create (Car.prototype);//TODO : equivalent to  extends
+SuperCar.prototype.constructor = SuperCar;
 SuperCar.prototype.getOnRoadPrice = function(){
     return this.price +100000;
 }
@@ -28,6 +29,9 @@ SuperCar.prototype.getOnRoadPrice = function(){
 
 const Mercedes = new SuperCar(['f1','f2'],2000000,"Mercedes","Black");
 
+
+console.log(Mercedes.getOnRoadPrice());
+console.log(Mercedes.__proto__);
 
 
 
@@ -41,3 +45,4 @@ console.log(Mercedes.hasOwnProperty('color'));
 console.log(Mercedes.hasOwnProperty('price'));
 console.log(Mercedes.hasOwnProperty('getOnRoadPrice'));//! you  can access it but it is not your part (It is with  prototype or ancestor)
 console.log(Mercedes.hasOwnProperty('getdetails'));
+ 

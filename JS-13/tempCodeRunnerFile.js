@@ -1,17 +1,20 @@
-class marriageDetail{
-    constructor(name,age,company, address){
-        this.name = name;
-        this.age = age;
-        this.company = company; 
-        this.address = address;
-        this.getDetails = function(){
-            return `I'm ${this.name} with age ${this.age}, currently working at ${this.company}`;
-        };
-    }
+const obj3 ={
+    name:"kavya",
+    age: 18,
+    
+}
+const obj4 ={
+    name:"vidhusi",
+    age: 21,
 }
 
-const rohitmarriage = new marriageDetail('rohit', 21, 'Cisco',{city:'Jabalpur'});
-console.log(rohitmarriage);
 
+function greet(){
+    console.log(this); 
+}
+obj3.greetFn = greet;
+obj3.greetFn(); //kavya
 
- 
+const greetFnFromObj3 = obj3.greetFn.bind(obj4);
+// const greetFnFromObj3 = obj3.greetFn.bind(obj4); it binds to  obj4
+greetFnFromObj3(); 
