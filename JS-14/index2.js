@@ -3,7 +3,7 @@
  function Car(model, color){
     this.model = model;
     this.color = color;
-    this.getColor = function rr(){ 
+    this.getColor = function() { 
         return this.color;
     }  
  }
