@@ -1,13 +1,9 @@
-let count =0;
-function  countdowWithClear(n){
-    let ID = setInterval(function(){
-     console.log(n--);
-    //  n--;
-     count++;
-     if(count===5){
-        clearInterval(ID);
-     }
-    },1000);
-    
+function countdowWithClear1(n){
+    for(let i =n ; i>n-5;i--){
+       setTimeout(function(){
+          console.log(i);
+          
+       },1000*(n-i +1));
+    }
 }
-countdowWithClear(5);
+countdowWithClear1(5);
