@@ -31,4 +31,5 @@ promiseReadFile.catch(function(err){
    console.log(err);
 })
 console.log('after');
+
 //TODO: it will be any  random order

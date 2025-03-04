@@ -7,7 +7,7 @@ let myPromise  = new Promise(function(resolve, reject){
         const  b =5
 
         if(a==b){
-            resolve('Yes they  are Equal') //Fullfilled
+            resolve('Yes they are Equal') //Fullfilled
         }
         else{
             reject('No they are not Equal') //rejected
