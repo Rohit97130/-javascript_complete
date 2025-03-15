@@ -35,3 +35,16 @@ function  cb(accumulator,currentvalue){
 }
 let sum1 = arr1.myreduce(cb);
 console.log(sum1);
+
+
+
+
+
+
+
+
+
+
+
+
+ 

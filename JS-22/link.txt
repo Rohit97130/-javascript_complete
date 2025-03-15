@@ -1,0 +1,16 @@
+https://stackoverflow.com/questions/61732049/what-is-the-difference-between-promise-any-and-promise-race
+
+
+
+
+
+
+
+https://www.educative.io/answers/what-is-promiserace-in-javascript
+
+
+
+
+
+
+https://dmitripavlutin.com/promise-all/
