@@ -205,6 +205,7 @@ function Action2(age) {
   })
 }
 function Action3(occupation) {
+
   return new Promise((resolve,reject)=>{
       setTimeout(() => {
         //  reject('error')
@@ -214,13 +215,14 @@ function Action3(occupation) {
 }
  
 
-// Promise.all([Action1("rohit"),Action2(24),Action3("Software Engineer")])
-// .then((res)=>{
-//    console.log(res);
-// }).catch((err)=>{
-//    console.log(err);
-// })
+Promise.all([Action1("rohit"),Action2(24),Action3("Software Engineer")])
+.then((res)=>{
+   console.log(res);
+}).catch((err)=>{
+  console.log(err);
+})
 
+console.log('roo');
 
 
 
