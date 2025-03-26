@@ -1,28 +1,40 @@
 // // create an objects you will  use curly  braces
 
-// let person1 = {
-//       name:  'ROhit',
-//       age: 26,
-//       OwnsAcar :  false,
-//       carName: null
-// }
+let person1 = {
+      name:  'ROhit',
+      age: 26,
+      OwnsAcar :  false,
+      carName: null
+}
 
 
-// let person2 = {
-//     name: 'Mark',
-//     age: 30,
-//     OwnsAcar :  true,
-//     carName : ' Nano', 
-//     phoneNo: 9713058107 
-// }
-// console.log(person1);
-// console.log(person2);
-
-
-
+let person2 = {
+    name: 'Mark',
+    age: 30,
+    OwnsAcar :  true,
+    carName : undefined, 
+    phoneNo: 9713058107 
+}
+console.log(person1);
+console.log(person2);
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////////////////////////////
 
 // new topics
 
@@ -47,7 +59,7 @@ let captainAmerica ={
 // Access key  and values of an object
 // dot Notataion 
 console.log(captainAmerica.friends[1]);
- console.log(captainAmerica.age,captainAmerica.friends + captainAmerica.age)
+ console.log(captainAmerica.age,captainAmerica.friends +" "+ captainAmerica.age)
 console.log(captainAmerica.address.city.name); 
 
  

@@ -24,6 +24,22 @@ console.log(resultfromMap);
 const Transactions = [1000, 3000, 4000, 2000, -898, 3800, -4500];
 const intrtToUsd = 80;
 
+// let result = Transactions.map((num)=>{
+//        return num*80;
+// })
+//  console.log( result);
+ 
+
+
+
+
+
+
+
+
+
+
+
 
 let answer = Transactions.map(
   function (amount) {

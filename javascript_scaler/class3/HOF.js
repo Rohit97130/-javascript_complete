@@ -12,6 +12,10 @@
         return 2*radius; 
       }  
       
+      
+      // let area2 = arr.map(circularArea);
+      console.log(arr.map(circularArea));
+      
 
 
 
@@ -38,6 +42,8 @@
 console.log(Area);
 console.log(circumference);
 console.log(Diameter);
+
+
 
 
 

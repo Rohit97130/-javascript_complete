@@ -1,14 +1,14 @@
- // // add two  numbers
+ // add two  numbers
 
-//  // function  creation (traditional way of creating way)
-// function addTwoNumber(a,b){
-//      let sum = a + b;
-//      console.log(sum)
-// }
+ // function  creation (traditional way of creating way)
+function addTwoNumber(a,b){
+     let sum = a + b;
+     console.log(sum)
+}
 
 // // how to  call or invoke a fuction
 // addTwoNumber(1,2)
-// // addTwoNumber('rohit' , ' jain')
+addTwoNumber('rohit' , ' jain')
 
 
 // //function  with  string
@@ -26,16 +26,16 @@
 
 
 
-// // new topic
+//! new topic
 
-// // functions as first class citizens
+// functions as first class citizens
 
-// // function sayHi(){
-// //     console.log('Hi');   
-// // }  // this is a traditional  function
-// // sayHi();
+// function sayHi(){
+//     console.log('Hi');   
+// }  // this is a traditional  function
+// sayHi();
 
-// // funtion as Expression --> function  is in the inside the varible called as a first class citizen
+// funtion as Expression --> function  is in the inside the varible called as a first class citizen
 // let sayHiFC = function(){
 //     console.log('HI');
 // }  // first class function

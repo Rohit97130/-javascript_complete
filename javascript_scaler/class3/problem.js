@@ -39,9 +39,9 @@
 
 
 
-// //  there is repetion  of code 
-// // it is not following dry principal
-// // just use high orrder function 
+//  there is repetion  of code 
+// it is not following dry principal
+// just use high orrder function 
 
 
 

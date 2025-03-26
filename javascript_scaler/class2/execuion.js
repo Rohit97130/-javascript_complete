@@ -28,3 +28,56 @@
 console.log(Square1);
 console.log(Square2);
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////
+
+
+
+
+
+let fruits = "apple";
+console.log(fruits); // apple
+
+{
+    console.log(fruits +2);
+
+    console.log(fruits); // 
+
+    {
+        console.log(fruits); //  
+    }
+    console.log(fruits); //  
+}
+
+console.log(fruits); 
+
+
+
+
+
+
+//////////
+
+let ob = {
+  name:'rohit',
+  age: {
+       n:23
+  }
+}
+ob ={}
+console.log(ob);

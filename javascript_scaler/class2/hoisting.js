@@ -1,5 +1,5 @@
 // printNameFC('Snehal');
-//  console.log(a);  //hoisted with the value undefined
+ console.log(a);  //hoisted with the value undefined
 
 
 // printName('snehal')  // it will  work 
